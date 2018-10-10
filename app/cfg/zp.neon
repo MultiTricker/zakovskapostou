@@ -1,0 +1,8 @@
+nette:
+    session:
+        autoStart: true
+        expiration: 5 days
+        name: "ZP"
+        savePath: "%tempDir%/sessions"
+        cookiePath: "/"
+        cookieDomain: ".zakovskapostou.cz"
